@@ -18,7 +18,7 @@ npm i
 
 ### Run project
 
-Application
+Application:
 
 ```
 npm run dev
@@ -41,8 +41,8 @@ npm run dev:server
 
 - [x] Set up JSON Web Server.
 - [x] List component for displaying artists, playlists and songs
-- [x] useFetch to load data with state feedback (loading, fetched, error)
-- [x] useDebounce to smooth artists search by user input and reduce network requests.
+- [x] Set up useFetch to load data with state feedback (loading, fetched, error)
+- [x] Set up useDebounce to smooth artists search by user input and reduce network requests.
 - [x] Load artists in List component
 - [x] React Router Dom for the navigation.
 - [x] Dynamic routes for artist detail page.
