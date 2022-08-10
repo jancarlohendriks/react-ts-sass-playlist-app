@@ -1,0 +1,9 @@
+$screen-sm: 520px;
+$screen-md: 1024px;
+$screen-xl: 1440px;
+
+@mixin breakpoint($bp) {
+  @media only screen and (min-width: $bp) {
+    @content;
+  }
+}
